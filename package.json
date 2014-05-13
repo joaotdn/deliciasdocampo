@@ -1,0 +1,26 @@
+{
+  "name": "deliciasdocampo",
+  "version": "1.0.0",
+  "title": "Delícias do Campo",
+  "homepage": "http://www.deliciasdocampo.com.br",
+  "description": "Coopeaaves Alimentos LTDA",
+  "author": "http://about.me/jteodoro",
+  "tags": "alimentos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaotdn/deliciasdocampo.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-compass": "~0.2.0",
+    "grunt-contrib-imagemin": "~0.1.4",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-rsync": "~0.1.1",
+    "matchdep": "~0.1.2",
+    "grunt-ftp-deploy": "^0.1.2",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-spritesmith": "^1.24.0"
+  }
+}
