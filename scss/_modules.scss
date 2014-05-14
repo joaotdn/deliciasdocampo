@@ -16,6 +16,10 @@ $green : #90c043;
 /**
  * Bases
  */
+html {
+	margin-top: 0 !important;
+}
+
 .row {
 	width: 960px !important;
 	height: 100%;
@@ -24,6 +28,7 @@ $green : #90c043;
 	margin: 0 !important;
 	@extend %rel;
 }
+
 .wrapper {
 	//@extend %rel;
 	width: 100%;
@@ -53,6 +58,19 @@ a {
 	@include single-transition(color,.3s,linear);
 }
 
+input {
+	@include border-radius;
+}
+
+input[type="submit"] {
+	background: $green;
+	border: none;
+	color: white;
+	text-transform: uppercase;
+	padding: rem-calc(10);
+	font-size: rem-calc(14);
+}
+
 //Conteudos
 .wrap-content {
 	height: 100%;
@@ -68,6 +86,7 @@ a {
 
 .the-content {
 	overflow: hidden;
+	overflow-y: scroll;
 }
 
 /**

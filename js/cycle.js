@@ -1542,14 +1542,6 @@ $.fn.cycle.transitions.wipe = function($cont, $slides, opts) {
 
 })(jQuery);
 
-$('.about-slide').cycle({
-    pager : '#nav',
-    fx:     'fade', 
-    speed:  'fast', 
-    timeout: 8000, 
-});
-
-
 $('.products-slide').cycle({
     pager : '#nav',
     fx:     'fade', 
